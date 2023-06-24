@@ -1,0 +1,30 @@
+.about-title {
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 124.18%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #665F5F;
+}
+
+.about-img {
+  margin-top: 32.68px;
+}
+
+.about-main {
+  margin-top: 52.95px;
+  padding-left: 413.86px;
+  padding-right: 413.86px;
+}
+.about-main-desc {
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 200%;
+  color: #665F5F;
+  text-indent: 1.5em;
+}
+.about-main-desc:last-child {
+  margin-bottom: 0;
+}/*# sourceMappingURL=About.css.map */

@@ -1,0 +1,72 @@
+.catalog-title {
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 124.18%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #665F5F;
+}
+
+.catalog-action {
+    margin-top: 13.57px;
+    margin-left: 56.5%;
+    gap: 32px;
+
+    &-caption {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 124.18%;
+        color: #665F5F;
+    }
+
+    button {
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+
+    &-products {
+        margin-top: 4px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 124.18%;
+        color: #665F5F;
+        opacity: 0.5;
+    }
+}
+
+.catalog-box {
+    margin-top: 40px;
+    padding-left: 470.87px;
+    padding-right: 470.87px;
+    flex-wrap: wrap;
+    column-gap: 55.39px;
+    row-gap: 40px;
+
+    &-info {
+        margin-top: 56px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 124.18%;
+        text-align: center;
+        color: #665F5F;
+        opacity: 0.5;
+    }
+
+    &-btn {
+        display: block;
+        width: 236px;
+        margin: 8.63px auto;
+        padding-top: 18.42px;
+        padding-bottom: 18.42px;
+        background: #665F5F;
+        border: 1px solid #665F5F;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 124.18%;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}

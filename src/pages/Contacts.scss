@@ -1,0 +1,87 @@
+@mixin bl-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 124.18%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #665F5F;
+}
+
+.contacts-title {
+    margin-top: 80px;
+    @include bl-title;
+}
+
+.contacts-get {
+    width: fit-content;
+    margin: 72.45px auto;
+    margin-bottom: 0;
+
+    &-title {
+        @include bl-title;
+    }
+
+    &-video {
+        margin-top: 39.83px;
+    }
+}
+
+.contacts-write {
+    margin-top: 72.45px;
+
+    &-title {
+        @include bl-title;
+    }
+
+    &-fm {
+        margin-top: 20px;
+        padding-top: 16.27px;
+        padding-bottom: 22.11px;
+        padding-left: 386.29px;
+        padding-right: 386.29px;
+        background: #FFD1D7;
+        flex-wrap: wrap;
+        column-gap: 26.95px;
+        row-gap: 20.76px;
+
+        input {
+            display: block;
+            width: 364.51px;
+            padding-top: 24.09px;
+            padding-bottom: 24.09px;
+            padding-left: 30.17px;
+            background: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            border-radius: 5px;
+            outline: none;
+            filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 124.18%;
+            color: rgba(102, 95, 95, 0.5);
+             
+            &-placeholder {
+                color: rgba(102, 95, 95, 0.5);
+            }            
+        }
+
+        textarea {
+            width: 100%;
+            height: 219.93px;
+            padding-top: 17.3px;
+            padding-left: 30.17px;
+            border: 1px solid #FFFFFF;
+            border-radius: 5px;
+            outline: none;
+            filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 124.18%;
+            color: rgba(102, 95, 95, 0.5);
+             
+            &-placeholder {
+                color: rgba(102, 95, 95, 0.5);
+            }     
+        }
+    }
+}
